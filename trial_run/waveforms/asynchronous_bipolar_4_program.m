@@ -44,7 +44,7 @@ CF              = 0;
 n_programs      = 4;
 n_repeats       = train_interval_on * frequency / n_programs;
 
-electrode_configuration = {'ring_admes'}; % Needs to be a cell for the table entry below
+electrode_configuration = {'ADMES_001'}; % Needs to be a cell for the table entry below
 stimulation_table       = [];
 
 %%%%%%%%%%
