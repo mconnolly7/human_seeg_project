@@ -1,0 +1,1 @@
+adt_helper(@asynchronous_bipolar_4_program)

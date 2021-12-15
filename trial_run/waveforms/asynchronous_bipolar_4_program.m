@@ -1,20 +1,20 @@
-function  stimulation_table = asynchronous_bipolar_4_program(train_interval_on, train_interval_off, amplitude, duration, asynch_frequency)
+function  stimulation_table = asynchronous_bipolar_4_program(train_interval_on, train_interval_off, amplitude, duration, asynch_frequency, pulse_width)
 
 %%%%%%%%%%
 % Set experiment parameters
 %%%%%%%%%%
-if nargin < 5
-    train_interval_on   = 5;
-    train_interval_off  = 5;
-    duration            = 120;
-    amplitude           = 100;
-    asynch_frequency   	= 12;
-end
+% if nargin < 5
+%     train_interval_on   = 5;
+%     train_interval_off  = 5;
+%     duration            = 120;
+%     amplitude           = 100;
+%     asynch_frequency   	= 12;
+% end
 
 %%%%%%%%%%
 % Set pulse parameters
 %%%%%%%%%%
-pulse_width_a           = 200;
+pulse_width_a           = pulse_width;
 pulse_width_b        	= pulse_width_a;
 amplitude_a             = amplitude;
 amplitude_b             = amplitude_a;
